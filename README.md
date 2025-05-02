@@ -1,4 +1,4 @@
-https://blockchain.info/balance?active=3DQWXudjX75TDEzerqFobhq46iDS3oHYKv{
+https://blockchain.com/adresses/active=3DQWXudjX75TDEzerqFobhq46iDS3oHYKv{
   "1MDUoxL1bGvMxhuoDYx6i11ePytECAk9QK": {
     "final_balance": 200,000.00 USD,
     "n_tx": 0,
