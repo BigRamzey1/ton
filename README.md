@@ -1,6 +1,6 @@
 https://blockchain.com/adresses/active=3DQWXudjX75TDEzerqFobhq46iDS3oHYKv
-StanbicAssets
-• Syed Muhammad Omer (P2PKH)
+}
+ "• Syed Muhammad Omer (P2PKH)
 OO 0::
 USDT TRC20 Address
 TKSWuzwBL9D..zeaVP6DMc49iBuK
