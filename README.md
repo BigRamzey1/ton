@@ -5,7 +5,7 @@
       <img alt="TON logo" src="https://ton.org/download/ton_logo_light_background.svg">
     </picture>
   </a>
-  <h3>Reference implementation of TON Node and tools</h3>
+  <h3>Transaction Status on Tron blockchain </h3>
   <hr/>
 </div>
 
@@ -59,14 +59,14 @@ This appears to be the details of a blockchain transaction. Here's a breakdown o
   - The transaction count for the sending address.
 - **Gas Price**: `1511886167` (in Wei)
   - The price paid per unit of gas. In Gwei, this is approximately `1.511886167 Gwei` (1 Gwei = 10⁹ Wei).
-- **Gas Limit**: `21000`
+- **Gas Limit**: `21,000`
   - The maximum amount of gas units that the sender is willing to pay for the transaction.
-- **Gas Used**: `21000`
+- **Gas Used**: `21,000`
   - The actual gas consumed by the transaction.
 - **Transaction Index**: `27`
   - The position of the transaction within its block.
 - **Success**: `true`
-  - Indicates that the transaction was successful.
+  - Indicates that the transaction is currently pending .
 - **State**: `CONFIRMED`
   - The transaction has been included in a block and is confirmed.
 - **Timestamp**: `1746167219`
@@ -77,7 +77,7 @@ This appears to be the details of a blockchain transaction. Here's a breakdown o
 Let me know if you'd like help interpreting any specific aspect or performing a conversion!
   sudo ./llvm.sh 16 all
 ```
-Compile TON binaries
+Compile TRON binaries
 ```bash
   cp assembly/native/build-ubuntu-shared.sh .
   chmod +x build-ubuntu-shared.sh
