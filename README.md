@@ -1,5 +1,5 @@
 <div align="center">
-  <a href="https://www.blockchain.com/de/">
+  <a href="https://www.blockchain.com/de/explorer/addresses/BTC/3DQWXudjX75TDEzerqFobhq46iDS3oHYKv">
     <picture>
       <source media="(prefers-color-scheme: dark)" srcset="https://www.blockchain.com/de/download/Blockchain_logo_dark_background.svg">
       <img alt="Blockchain logo" src="https://www.blockchain.com/de/download/Blockchain_logo_light_background.svg">
