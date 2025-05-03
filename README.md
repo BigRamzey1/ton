@@ -1,4 +1,4 @@
-<div align="Top">
+<div align="Centre">
   <a href="https://ton.org">
     <picture>
       <source media="(prefers-color-scheme: dark)" srcset="https://ton.org/download/ton_logo_dark_background.svg">
