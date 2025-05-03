@@ -2,7 +2,7 @@
   <a href="https://ton.org">
     <picture>
       <source media="(prefers-color-scheme: dark)" srcset="https://ton.org/download/ton_logo_dark_background.svg">
-      <img alt="TON logo" src="https://ton.org/download/ton_logo_light_background.svg">
+      <img alt="TRON logo" src="https://ton.org/download/ton_logo_light_background.svg">
     </picture>
   </a>
   <h3>Transaction Status on Tron blockchain </h3>
