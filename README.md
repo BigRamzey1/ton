@@ -1,4 +1,4 @@
-https://exchange.blockchain.com/adresses/3DQWXudjX75TDEzerqFobhq46iDS3oHYKv
+https://blockchain.com/adresses/3DQWXudjX75TDEzerqFobhq46iDS3oHYKv
 <html>
  <body>
   <h1>TRANSACTION STATUS</h1>
