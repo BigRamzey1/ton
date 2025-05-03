@@ -40,45 +40,41 @@
 
 
 
-Main TON monorepo, which includes the code of the node/validator, lite-client, tonlib, FunC compiler, etc.
+This appears to be the details of a blockchain transaction. Here's a breakdown of the information provided:
 
-## The Open Network
+### Transaction Details:
+- **Transaction Hash**: `0x2fc9f519ac4bfe1ba9d7ddf8743a4077fec9d01eb4788af53832ed88c32556ae`
+  - Unique identifier for this specific transaction.
+- **Block Hash**: `0x496f585ec9071ad83aefaf8d986e900871291d278a2f2dc17277f404499ac5d7`
+  - Hash of the block containing this transaction.
+- **Block Number**: `22394338`
+  - The number of the block in which the transaction is included.
+- **To Address**: `0x579ab860ca3dc2a47252ebe27b3138cc0bee59b5`
+  - The recipient of the transaction.
+- **From Address**: `0x8955a8c3e37986463ef33fe36cf079ba22bd203f`
+  - The sender of the transaction.
+- **Value**: `174690390493000` (in Wei)
+  - This is the amount of cryptocurrency transferred in the transaction. In Ether, it would be `0.000174690390493` ETH (1 ETH = 10¹⁸ Wei).
+- **Nonce**: `1`
+  - The transaction count for the sending address.
+- **Gas Price**: `1511886167` (in Wei)
+  - The price paid per unit of gas. In Gwei, this is approximately `1.511886167 Gwei` (1 Gwei = 10⁹ Wei).
+- **Gas Limit**: `21000`
+  - The maximum amount of gas units that the sender is willing to pay for the transaction.
+- **Gas Used**: `21000`
+  - The actual gas consumed by the transaction.
+- **Transaction Index**: `27`
+  - The position of the transaction within its block.
+- **Success**: `true`
+  - Indicates that the transaction was successful.
+- **State**: `CONFIRMED`
+  - The transaction has been included in a block and is confirmed.
+- **Timestamp**: `1746167219`
+  - The time the transaction was confirmed, in Unix epoch format. This converts to "2025-12-31 23:53:39 UTC".
+- **Internal Transactions**: `[]`
+  - No internal transactions (e.g., contract calls) are associated with this transaction.
 
-__The Open Network (TON)__ is a fast, secure, scalable blockchain focused on handling _millions of transactions per second_ (TPS) with the goal of reaching hundreds of millions of blockchain users.
-- To learn more about different aspects of TON blockchain and its underlying ecosystem check [documentation](https://ton.org/docs)
-- To run node, validator or lite-server check [Participate section](https://ton.org/docs/participate/nodes/run-node)
-- To develop decentralised apps check [Tutorials](https://ton.org/docs/develop/smart-contracts/), [FunC docs](https://ton.org/docs/develop/func/overview) and [DApp tutorials](https://ton.org/docs/develop/dapps/)
-- To work on TON check [wallets](https://ton.app/wallets), [explorers](https://ton.app/explorers), [DEXes](https://ton.app/dex) and [utilities](https://ton.app/utilities)
-- To interact with TON check [APIs](https://ton.org/docs/develop/dapps/apis/)
-
-## Updates flow
-
-* **master branch** - mainnet is running on this stable branch.
-
-    Only emergency updates, urgent updates, or updates that do not affect the main codebase (GitHub workflows / docker images / documentation) are committed directly to this branch.
-
-* **testnet branch** - testnet is running on this branch. The branch contains a set of new updates. After testing, the testnet branch is merged into the master branch and then a new set of updates is added to testnet branch.
-
-* **backlog** - other branches that are candidates to getting into the testnet branch in the next iteration.
-
-Usually, the response to your pull request will indicate which section it falls into.
-
-
-## "Soft" Pull Request rules
-
-* Thou shall not merge your own PRs, at least one person should review the PR and merge it (4-eyes rule)
-* Thou shall make sure that workflows are cleanly completed for your PR before considering merge
-
-## Build TON blockchain
-
-### Ubuntu 20.4, 22.04 (x86-64, aarch64)
-Install additional system libraries
-```bash
-  sudo apt-get update
-  sudo apt-get install -y build-essential git cmake ninja-build zlib1g-dev libsecp256k1-dev libmicrohttpd-dev libsodium-dev
-          
-  wget https://apt.llvm.org/llvm.sh
-  chmod +x llvm.sh
+Let me know if you'd like help interpreting any specific aspect or performing a conversion!
   sudo ./llvm.sh 16 all
 ```
 Compile TON binaries
