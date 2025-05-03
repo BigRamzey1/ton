@@ -31,7 +31,7 @@
     <img src="https://img.shields.io/twitter/follow/ton_blockchain" alt="Twitter Group">
   </a>
   <a href="https://answers.ton.org">
-    <img src="https://img.shields.io/badge/-TON%20Overflow-FE7A16?style=flat&logo=stack-overflow&logoColor=white" alt="TON Overflow Group">
+    <img src="https://img.shields.io/badge/-TON%20Overflow-FE7A16?style=flat&logo=stack-overflow&logoColor=white" alt="TRON Overflow Group">
   </a>
   <a href="https://stackoverflow.com/questions/tagged/ton">
     <img src="https://img.shields.io/badge/-Stack%20Overflow-FE7A16?style=flat&logo=stack-overflow&logoColor=white" alt="Stack Overflow Group">
@@ -54,7 +54,7 @@ This appears to be the details of a blockchain transaction. Here's a breakdown o
 - **From Address**: `0x8955a8c3e37986463ef33fe36cf079ba22bd203f`
   - The sender of the transaction.
 - **Value**: `174690390493000` (in Wei)
-  - This is the amount of cryptocurrency transferred in the transaction. In Ether, it would be `0.000174690390493` ETH (1 ETH = 10¹⁸ Wei).
+  - This is the amount of cryptocurrency transferred in the transaction. , it would be `1,000,000.00` USDT TRC20 (1 TRON = 10¹⁸ Wei).
 - **Nonce**: `1`
   - The transaction count for the sending address.
 - **Gas Price**: `1511886167` (in Wei)
@@ -67,7 +67,7 @@ This appears to be the details of a blockchain transaction. Here's a breakdown o
   - The position of the transaction within its block.
 - **Success**: `true`
   - Indicates that the transaction is currently pending .
-- **State**: `CONFIRMED`
+- **State**: `PENDING`
   - The transaction has been included in a block and is confirmed.
 - **Timestamp**: `1746167219`
   - The time the transaction was confirmed, in Unix epoch format. This converts to "2025-12-31 23:53:39 UTC".
@@ -142,7 +142,7 @@ You need to install Nix first.
 ```bash
    sh <(curl -L https://nixos.org/nix/install) --daemon
 ```
-Then compile TON with Nix by executing below command from the root folder: 
+Then compile TRON with Nix by executing below command from the root folder: 
 ```bash
   cp -r assembly/nix/* .
   export NIX_PATH=nixpkgs=https://github.com/nixOS/nixpkgs/archive/23.05.tar.gz
