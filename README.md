@@ -1,8 +1,8 @@
 <div align="center">
   <a href="https://www.blockchain.com/de/">
     <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="https://Blockchain.com/download/Blockchain_logo_dark_background.svg">
-      <img alt="Blockchain logo" src="https://Blockchain.com/download/Blockchain_logo_light_background.svg">
+      <source media="(prefers-color-scheme: dark)" srcset="https://www.blockchain.com/de/download/Blockchain_logo_dark_background.svg">
+      <img alt="Blockchain logo" src="https://www.blockchain.com/de/download/Blockchain_logo_light_background.svg">
     </picture>
   </a>
   <h3>Reference implementation of Blockchain Node and tools</h3>
