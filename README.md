@@ -1,4 +1,4 @@
-h<div align="center">
+<div align="center">
   <a href="https://exchange.blockchain.com/?utm_campaign=expmarketing_getstarted">
     <picture>
       <source media="(prefers-color-scheme: dark)" srcset="https://exchange.blockchain.com/?utm_campaign=expmarketing_getstarted">
