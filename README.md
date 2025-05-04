@@ -8,9 +8,13 @@
   <h3>Reference implementation of Live Chart, news and tools</h3>
   <hr/>
 </div>
+
+
+<a>
 00 -5673,6 +5673,26 CO td: :Status TonlibClient:: do_request (const tonlib_api::blocks_lookupBlock& reques td:: Status
 check_lookup_block_proof(lite_api_ptr<ton::1
-ite_api: :liteServer_lookupBlockResult>&
+ite_api: :liteServer_lookupBlockResult<
+/a>&
 result, int mode, ton::BlockId blkid, ton: :BlockIdExt client_mc_blkid, td::uint64
 It, td::uint32 utime) {
 try {
