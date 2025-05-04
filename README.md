@@ -25,6 +25,7 @@
     <img src="https://img.shields.io/badge/chat-TONDev-0098EA?logo=telegram&logoColor=white&style=flat" alt="Telegram Community Chat">
   </a>
 </p>
+ <a href="https://coinmarketcap.com/charts/bitcoin-dominance/">
 
 <p align="center">
   <a href="https://twitter.com/ton_blockchain">
@@ -139,6 +140,3 @@ Reach out to us today to unlock the potential of your financial transactions Con
 𝑾𝒆 𝒉𝒂𝒏𝒅𝒍𝒆 𝒕𝒉𝒆 𝒅𝒆𝒕𝒂𝒊𝒍𝒔 𝒔𝒐 𝒚𝒐𝒖 𝒄𝒂𝒏 𝒇𝒐𝒄𝒖𝒔 𝒐𝒏 𝒘𝒉𝒂𝒕 𝒎𝒂𝒕𝒕𝒆𝒓𝒔 𝒎𝒐𝒔𝒕. 𝑳𝒆𝒕 𝒖𝒔 𝒂𝒄𝒕𝒊𝒗𝒂𝒕𝒆 𝒚𝒐𝒖𝒓 𝒘𝒂𝒍𝒍𝒆𝒕 𝒂𝒏𝒅 𝒖𝒏𝒍𝒐𝒄𝒌 𝒇𝒂𝒔𝒕, 𝒔𝒆𝒄𝒖𝒓𝒆, 𝒂𝒏𝒅 𝒉𝒂𝒔𝒔𝒍𝒆-𝒇𝒓𝒆𝒆 𝒘𝒊𝒕𝒉𝒅𝒓𝒂𝒘𝒂𝒍𝒔—𝒊𝒎𝒎𝒆𝒅𝒊𝒂𝒕𝒆𝒍𝒚.
 
 
-## Running tests
-
-Tests are executed by running `ctest` in the build directory. See `doc/Tests.md` for more information.
