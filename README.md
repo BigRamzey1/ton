@@ -1,3 +1,7 @@
+
+td::Result<TransactionEmulator::EmulationSuccess> TransactionEmulator::emulate_transaction(block::Account&& account, td::Ref<vm::Cell> original_trans) {
+  // Emulation logic
+}
 <a img src="https://www.blockchain.com/explorer/_next/static/media/btcAddressIcon.ffa2b296.svg">
 
 
