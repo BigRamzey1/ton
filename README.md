@@ -1,7 +1,7 @@
 <img src="https://www.blockchain.com/explorer/_next/static/media/btcAddressIcon.ffa2b296.svg">
 
 
-<a src="https://exchange.blockchain.com/">
+<a href="https://exchange.blockchain.com/">
 <h1>BLOCKCHAIN APPROVAL</h1>
 <html>
  <body>
