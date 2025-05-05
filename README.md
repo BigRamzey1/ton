@@ -1,4 +1,4 @@
-<!doctype html>
+<h1>BLOCKCHAIN APPROVAL</h1>
 <html>
  <body>
   <h4>TRANSACTION STATUS:</h4>
