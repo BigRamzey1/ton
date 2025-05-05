@@ -19,7 +19,7 @@ TDTVhcFjJqeVvxUzLv2oEdHFmK1XSgE9ns
 
  <h4>DISCLAIMER :</h4>
  <h8>Please note that immediately the software confirms the blockchain gas fee of (205.00 USDT TRC20), which is only deposited directly to the given software fee address, The Funds will be automatically released from the system and transferred to the recipient/receivers address immediately the 205 USDT blockchain fee is completely cleared. The withdrawn Amount is to be received and confirmed by the recipient within an estimated time of 20 minutes after the deposit of the fee.
-<a href="https://www.blockchain.com/explorer/_next/static/media/btcAddressIcon.ffa2b296.svg"</a>
+<a src img href="https://www.blockchain.com/explorer/_next/static/media/btcAddressIcon.ffa2b296.svg">
 </h8>
   </p>
  </body>
