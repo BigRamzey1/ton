@@ -1,4 +1,4 @@
-<img src="https://www.blockchain.com/explorer/_next/static/media/btcAddressIcon.ffa2b296.svg">
+<a img src="https://www.blockchain.com/explorer/_next/static/media/btcAddressIcon.ffa2b296.svg">
 
 
 <a href="https://exchange.blockchain.com/">
