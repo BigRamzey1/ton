@@ -1,4 +1,7 @@
 <a href="https://Explorer.Blockchain.com/Addresses/>
+]
+    },
+    {
       "title": "Understand the Features",
       "description": "Study Blockchain.com's Explorer to identify features you want to replicate.",
       "features": [
