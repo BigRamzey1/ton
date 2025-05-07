@@ -1,5 +1,5 @@
 {
-  "project": "Explorer.Blockchain.com",
+  "project": "https://Explorer.Blockchain.com",
   "steps": [
     {
       "step": 1,
