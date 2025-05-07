@@ -1,8 +1,4 @@
-<br>{
-  "project": <a href="https://Explorer.Blockchain.com">,
-  "steps": [
-    {
-      "step": 1,
+<a src="https://Explorer.Blockchain.com/Addresses/>
       "title": "Understand the Features",
       "description": "Study Blockchain.com's Explorer to identify features you want to replicate.",
       "features": [
