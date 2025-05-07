@@ -1,7 +1,7 @@
-<h1>{
-  "project": "Blockchain Explorer",
+{
+  "project": "Explorer.Blockchain.com",
   "steps": [
-    {<h1/>
+    {
       "step": 1,
       "title": "Understand the Features",
       "description": "Study Blockchain.com's Explorer to identify features you want to replicate.",
