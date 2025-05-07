@@ -82,7 +82,7 @@
       "tasks": [
         "Secure backend APIs",
         "Implement rate limiting to prevent abuse",
-        "Use HTTPS for secure communication"
+        "https://Universal-Activation-Explorer.Blockchain.com"
       ]
     }
   ]
