@@ -1,84 +1,56 @@
-<a href="https://Explorer.Blockchain.com/Addresses/>
-]
-    },
-    {
-      "title": "Understand the Features",
-      "description": "Study Blockchain.com's Explorer to identify features you want to replicate.",
-      "features": [
-        "Viewing transactions, blocks, and wallets",
-        "Real-time updates",
-        "Search functionality for addresses, transactions, and blocks",
-        "Analytics like transaction volume and fees"
-      ]
-    },
-    {
-      "step": 2,
-      "title": "Set Up Your Development Environment",
-      "description": "Prepare tools and environments for development.",
-      "technologies": {
-        "backend": ["Python (Flask, Django)", "Node.js", "Go"],
-        "frontend": ["React", "Vue.js", "Angular"],
-        "blockchain_node": ["Bitcoin (bitcoind)", "Ethereum (geth)"],
-        "database": ["PostgreSQL", "MongoDB"]
-      }
-    },
-    {
-      "step": 3,
-      "title": "Backend Development",
-      "description": "Develop the backend architecture to connect to the blockchain node.",
-      "tasks": [
-        "Connect to the blockchain node using APIs like JSON-RPC",
-        "Parse blocks, transactions, and addresses and store them in a database",
-        "Build RESTful or GraphQL APIs to serve data to the frontend"
-      ]
-    },
-    {
-      "step": 4,
-      "title": "Frontend Development",
-      "description": "Design and develop the frontend interface for the explorer.",
-      "tasks": [
-        "Create pages for latest blocks, transactions, addresses, and block details",
-        "Use UI frameworks like TailwindCSS or Bootstrap for design",
-        "Integrate frontend with backend APIs",
-        "Implement real-time updates using WebSockets or polling"
-      ]
-    },
-    {
-      "step": 5,
-      "title": "Additional Features",
-      "description": "Add extra features to enhance the explorer's functionality.",
-      "features": [
-        "Search functionality for addresses, transactions, and blocks",
-        "Charts and analytics using libraries like Chart.js or D3.js",
-        "Multi-currency support for other blockchains",
-        "Mobile responsiveness"
-      ]
-    },
-    {
-      "step": 6,
-      "title": "Hosting and Deployment",
-      "description": "Deploy the application.",
-      "tasks": [
-        "Host the backend on platforms like AWS, Google Cloud, or DigitalOcean",
-        "Deploy the frontend using platforms like Vercel or Netlify",
-        "Use managed database services or self-hosted solutions for the database"
-      ]
-    },
-    {
-      "step": 7,
-      "title": "Testing and Optimization",
-      "description": "Ensure optimal performance and a user-friendly interface.",
-      "tasks": [
-        "Load-test APIs to handle high traffic",
-        "Optimize database queries for faster performance",
-        "Ensure the frontend is intuitive and user-friendly"
-      ]
-    },
-    {
-      "step": 8,
-      "title": "Security",
-      "description": "Secure the application.",
-      "tasks": [
-        "Secure backend APIs",
-        "Implement rate limiting to prevent abuse",
-        <a href="">
+```cpp
+std::unique_ptr<vm::Dictionary> get_suspended_addresses(ton::UnixTime now) const;
+```
+
+- **Return Type**: `std::unique_ptr<vm::Dictionary>`  
+  This indicates the method returns a unique pointer to a `vm::Dictionary`, which likely contains the suspended addresses.
+
+- **Parameter**: `ton::UnixTime now`  
+  The method accepts a timestamp (`now`) to determine the state of suspended addresses.
+
+---
+
+### Partial Implementation
+
+```cpp
+std::unique_ptr<vm::Dictionary> Config::get_suspended_addresses(ton::UnixTime now) const {
+    td::Ref<vm::Cell> param = get_config_param(44);
+    ...
+}
+```
+
+- **Key Points**:
+  1. **Fetching Configuration Parameter**:  
+     The method retrieves a configuration parameter using `get_config_param(44)`. Here, `44` is likely the identifier for a specific configuration related to suspended addresses.
+     
+     ```cpp
+     td::Ref<vm::Cell> param = get_config_param(44);
+     ```
+
+  2. **Return Condition**:  
+     Depending on the state of `param` (e.g., null or valid), the method processes the parameter to extract relevant data for suspended addresses. Since the implementation is incomplete (`...`), the processing logic is not visible in the snippet.
+
+  3. **Dictionary Object**:  
+     The extracted data is converted into a `vm::Dictionary` object, encapsulated in a `std::unique_ptr`.
+
+---
+
+### Possible Use Case
+
+The `get_suspended_addresses` function could be part of a blockchain configuration system where:
+- Certain addresses are temporarily suspended based on specific rules or conditions.
+- The function retrieves these addresses for validation, auditing, or other operational purposes.
+
+### Next Steps
+
+To fully understand or utilize this function:
+1. **Inspect `get_config_param`**:  
+   Review the implementation of `get_config_param` to understand how configuration parameters are retrieved.
+
+2. **Complete the Function Logic**:  
+   Identify what happens after fetching `param`. Look for similar methods or documentation to understand how `vm::Dictionary` is constructed.
+
+3. **Explore Config Param `44`**:  
+   Investigate what configuration parameter `44` represents. It may be defined elsewhere in the codebase.
+
+Would you like help locating the full implementation or related parts of the code?
