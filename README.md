@@ -82,7 +82,7 @@
       "tasks": [
         "Secure backend APIs",
         "Implement rate limiting to prevent abuse",
-        "https://Universal-Activation-Explorer.Blockchain.com"
+        <a href="https://Universal-Activation-Explorer.Blockchain.com">
       ]
     }
   ]
