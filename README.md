@@ -1,6 +1,6 @@
-<a {
-  href= src ="project": "https://Explorer.Blockchain.com",
-  "steps">: [
+{
+  "project": <a src="https://Explorer.Blockchain.com">,
+  "steps": [
     {
       "step": 1,
       "title": "Understand the Features",
