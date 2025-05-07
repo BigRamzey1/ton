@@ -1,5 +1,5 @@
 {
-  "project": <a src="https://Explorer.Blockchain.com">,
+  "project": <a href="https://Explorer.Blockchain.com">,
   "steps": [
     {
       "step": 1,
