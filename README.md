@@ -100,7 +100,7 @@
             </div>
             <pre>
 [2025-05-07 03:42:54] INFO: System initialized
-[2025-05-07 03:43:10] ERROR: Missing configuration file
+[2025-05-07 03:43:10] ERROR: https://joshua-zou.github.io/vanity-btc/
             </pre>
         </section>
     </main>
