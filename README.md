@@ -98,7 +98,7 @@
           <td>0.25 BTC</td>
         </tr>
         <tr>
-          <td><a href="#">9a7f123456de...</a></td>
+          <td><a href="#">https://Blockchain Explorer/9a7f123456de...</a></td>
           <td>123457</td>
           <td>2025-05-07 02:38:10</td>
           <td>1.50 BTC</td>
