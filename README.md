@@ -43,18 +43,18 @@
 This appears to be the details of a blockchain transaction. Here's a breakdown of the information provided:
 
 ### Transaction Details:
-- **Transaction Hash**: `0x2fc9f519ac4bfe1ba9d7ddf8743a4077fec9d01eb4788af53832ed88c32556ae`
+- **Transaction Hash**: `0x531c11aa7e2afffe01f53d6252b507fde519fac4dbef0ed294a3dffc9d6b933d`
   - Unique identifier for this specific transaction.
 - **Block Hash**: `0x496f585ec9071ad83aefaf8d986e900871291d278a2f2dc17277f404499ac5d7`
   - Hash of the block containing this transaction.
 - **Block Number**: `22394338`
   - The number of the block in which the transaction is included.
-- **To Address**: `0x579ab860ca3dc2a47252ebe27b3138cc0bee59b5`
+- **To Address**: `0x0000000000000000000000000000000000001002`
   - The recipient of the transaction.
-- **From Address**: `0x8955a8c3e37986463ef33fe36cf079ba22bd203f`
+- **From Address**: `0x1C7a7810aFD50eBb6aa503b8223157E138906DB0`
   - The sender of the transaction.
-- **Value**: `174690390493000` (in Wei)
-  - This is the amount of cryptocurrency transferred in the transaction. In Ether, it would be `0.000174690390493` ETH (1 ETH = 10¹⁸ Wei).
+- **Value**: `974690390493000` (in Wei)
+  - This is the amount of cryptocurrency transferred in the transaction. In Ether, it would be `0.000174690390493` BNB (0.1 BNB = 10¹⁸ Wei).
 - **Nonce**: `1`
   - The transaction count for the sending address.
 - **Gas Price**: `1511886167` (in Wei)
